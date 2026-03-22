@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu — Yoo & yO cafe</title>
+  <link rel="stylesheet" href='style.css'>
+</head>
+<body>
+
+<div class="topNav">
+    <a href="index.html" class="logo">Yoo <span>&</span> yO cafe</a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+    </ul>
+    <button id="hamburgerBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</div>
+
+<div class="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+</div>
+
+<div class="pageHero menu-bg">
+    <div>
+        <h1>Our Menu</h1>
+        <p>Simple menu. Prices include taxes.</p>
+    </div>
+</div>
+
+<div class="menuTabs">
+    <div class="tabsInner">
+        <button class="tabBtn active" data-tab="coffee">Coffee</button>
+        <button class="tabBtn" data-tab="nonCoffee">Non-Coffee</button>
+        <button class="tabBtn" data-tab="food">Food</button>
+        <button class="tabBtn" data-tab="pastries">Pastries</button>
+    </div>
+</div>
+
+
+<div id="coffee" class="menuPanel active">
+    <div class="panelInner">
+        <h2>Coffee</h2>
+        <p class="panelDesc">All coffee items. Available hot or cold.</p>
+
+        <div class="itemsGrid">
+
+            <div class="menuItem">
+                <div>
+                    <div class="iName">Espresso</div>
+                    <div class="iDesc">Strong small coffee shot.</div>
+                </div>
+                <span class="iPrice">₹160</span>
+            </div>
+
+            <div class="menuItem">
+              <div>
+                <div class="iName">Americano</div>
+                <div class="iDesc">Espresso with hot water.</div>
+              </div>
+              <span class="iPrice">₹200</span>
+            </div>
+
+            <div class="menuItem">
+                <div>
+                    <div class='iName'>Flat White</div>
+                    <div class='iDesc'>Coffee with milk, smooth taste.</div>
+                </div>
+                <span class='iPrice'>₹260</span>
+            </div>
+
+            <div class="menuItem">
+              <div>
+                <div class="iName">Cappuccino</div>
+                <div class="iDesc">Coffee with foam and milk.</div>
+              </div>
+              <span class="iPrice">₹260</span>
+            </div>
+
+            <div class="menuItem">
+                <div>
+                    <div class="iName">Latte</div>
+                    <div class="iDesc">Milk coffee, light and smooth.</div>
+                </div>
+                <span class="iPrice">₹280</span>
+            </div>
+
+            <!-- add more later maybe -->
+
+            <div class="menuItem">
+                <div>
+                    <div class="iName">Cold Brew</div>
+                    <div class="iDesc">Cold coffee, less bitter.</div>
+                </div>
+                <span class="iPrice">₹300</span>
+            </div>
+
+            <div class="menuItem">
+                <div>
+                    <div class="iName">Filter Coffee</div>
+                    <div class="iDesc">Classic style coffee.</div>
+                </div>
+                <span class="iPrice">₹240</span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="nonCoffee" class="menuPanel">
+    <div class="panelInner">
+        <h2>Non-Coffee</h2>
+        <p class="panelDesc">Other drinks if you don’t want coffee.</p>
+
+        <div class="itemsGrid">
+
+          <div class="menuItem">
+            <div>
+              <div class="iName">Masala Chai</div>
+              <div class="iDesc">Normal Indian chai.</div>
+            </div>
+            <span class="iPrice">₹180</span>
+          </div>
+
+          <div class="menuItem">
+            <div>
+              <div class="iName">Hot Chocolate</div>
+              <div class="iDesc">Chocolate drink with milk.</div>
+            </div>
+            <span class="iPrice">₹280</span>
+          </div>
+
+          <div class="menuItem">
+            <div>
+              <div class="iName">Fresh Juice</div>
+              <div class="iDesc">Depends on availability.</div>
+            </div>
+            <span class="iPrice">₹220</span>
+          </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="food" class="menuPanel">
+    <div class="panelInner">
+        <h2>Food</h2>
+        <p class="panelDesc">Basic food items.</p>
+
+        <div class="itemsGrid">
+
+            <div class="menuItem">
+                <div>
+                    <div class="iName">Avocado Toast</div>
+                    <div class="iDesc">Toast with avocado and egg.</div>
+                </div>
+                <span class="iPrice">₹480</span>
+            </div>
+
+            <div class="menuItem">
+              <div>
+                <div class="iName">Eggs on Toast</div>
+                <div class="iDesc">Eggs with bread.</div>
+              </div>
+              <span class="iPrice">₹360</span>
+            </div>
+
+            <div class="menuItem">
+                <div>
+                    <div class="iName">Grilled Cheese</div>
+                    <div class="iDesc">Cheese sandwich.</div>
+                </div>
+                <span class="iPrice">₹420</span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="pastries" class="menuPanel">
+    <div class="panelInner">
+        <h2>Pastries</h2>
+        <p class="panelDesc">Fresh baked items.</p>
+
+        <div class="itemsGrid">
+
+          <div class="menuItem">
+            <div>
+              <div class="iName">Croissant</div>
+              <div class="iDesc">Buttery pastry.</div>
+            </div>
+            <span class="iPrice">₹180</span>
+          </div>
+
+          <div class="menuItem">
+            <div>
+              <div class="iName">Muffin</div>
+              <div class="iDesc">Soft and sweet.</div>
+            </div>
+            <span class="iPrice">₹180</span>
+          </div>
+
+          <div class="menuItem">
+            <div>
+              <div class="iName">Brownie</div>
+              <div class="iDesc">Chocolate brownie.</div>
+            </div>
+            <span class="iPrice">₹220</span>
+          </div>
+
+        </div>
+    </div>
+</div>
+
+<footer id="siteFooter">
+    <div class="footerGrid">
+
+      <div class="footBrand">
+        <a href="index.html" class="logo">Yoo <span>&</span> yO cafe</a>
+        <p>Simple cafe with coffee and snacks.</p>
+      </div>
+
+        <div class="footCol">
+            <h4>Navigate</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+            </ul>
+        </div>
+
+      <div class="footCol">
+        <h4>Find us</h4>
+        <address>
+            Ghaziabad<br>
+            Uttar Pradesh<br>
+            yoocafe@email.com<br>
+            +91 98765 43210
+        </address>
+      </div>
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
